@@ -13,5 +13,8 @@ describe "Sum of Multiples" do
   it 'should return two thousand three hundred eighteen if upper limit is hundred and numbers are three and five' do
     expect(SumOfMultiples.new(100, [3, 5]).get_sum).to eq 2318
   end
+  it 'should return fifty one if upper limit is twenty and numbers are seven, thirteen and seventeen' do
+    expect(SumOfMultiples.new(20, [7, 13, 17]).get_sum).to eq 51
+  end
 
 end
