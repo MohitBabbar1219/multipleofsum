@@ -16,8 +16,8 @@ describe "Sum of Multiples" do
   it 'should return fifty one if upper limit is twenty and numbers are seven, thirteen and seventeen' do
     expect(SumOfMultiples.new(20, [7, 13, 17]).get_sum).to eq 51
   end
-  it 'should return four thousand four hundred nineteen if upper limit is one hundred fifty and numbers are five, six and eight' do
-    expect(SumOfMultiples.new(150, [5, 6, 8]).get_sum).to eq 4419
+  it 'should return four three nine 6 one four one four five three seven if upper limit is ten thousand and numbers are two, three, five, seven and eleven' do
+    expect(SumOfMultiples.new(10000, [2, 3, 5, 7, 11]).get_sum).to eq 39614537
   end
 
 end
