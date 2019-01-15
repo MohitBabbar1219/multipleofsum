@@ -4,8 +4,6 @@ class SumOfMultiples
     @set = set
   end
   def get_sum
-    if 1 < @set[0] && 1 < @set[1]
-      0
-    end
+    ((1...@upper_limit).select { |num| num % @set[0] == 0 || num % @set[1] == 0 }).sum
   end
 end
